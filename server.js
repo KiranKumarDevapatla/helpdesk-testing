@@ -30,7 +30,7 @@ const user = require("./routes/api/user");
 app.use(user);
 
 app.get("/", (req, res) => {
-    res.send("helpdesk main page is here testing");
+    res.send("helpdesk main page is here testing good working");
 });
 
 ///////////// WEBHOOK METHODS STARTS HERE ///////////////
